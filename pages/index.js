@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -13,8 +14,13 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Coming soon
+          Pronto..
         </h1>
+        <p>
+          Mientras podés crear una cuenta en <Link href="https://accounts.binance.com/es-LA/register?ref=R2NBXRCR">
+          <a><b><u>Binance</u></b> :)</a>
+        </Link>
+        </p>
       </main>
     </div>
   )
